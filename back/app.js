@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const bodyParser = require('body-parser');
 
 
@@ -9,7 +10,7 @@ const gymData = require('./mockeados/gymData.json');
 const objetosData = require('./mockeados/objetosData.json');
 const regionesData = require('./mockeados/regionesData.json');
 
-
+app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/pokemons', (req, res) => {
