@@ -1,0 +1,17 @@
+[
+    {
+        "item_id": 1,
+        "name": "Poké Ball",
+        "price": 200
+    },
+    {
+        "item_id": 2,
+        "name": "Potion",
+        "price": 300
+    },
+    {
+        "item_id": 3,
+        "name": "Super Potion",
+        "price": 700
+    }
+]

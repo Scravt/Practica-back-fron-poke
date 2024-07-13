@@ -1,0 +1,59 @@
+[
+    {
+        "gym_id": 1,
+        "name": "Pewter Gym",
+        "leader": "Brock",
+        "address": {
+            "street": "Rock St",
+            "number": 101
+        },
+        "pokemon": [
+            {
+                "name": "Geodude",
+                "level": 12
+            },
+            {
+                "name": "Onix",
+                "level": 14
+            }
+        ]
+    },
+    {
+        "gym_id": 2,
+        "name": "Cerulean Gym",
+        "leader": "Misty",
+        "address": {
+            "street": "Water St",
+            "number": 202
+        },
+        "pokemon": [
+            {
+                "name": "Staryu",
+                "level": 18
+            },
+            {
+                "name": "Starmie",
+                "level": 21
+            }
+        ]
+    },
+    {
+        "gym_id": 3,
+        "name": "Vermilion Gym",
+        "leader": "Lt. Surge",
+        "address": {
+            "street": "Electric Ave",
+            "number": 303
+        },
+        "pokemon": [
+            {
+                "name": "Voltorb",
+                "level": 21
+            },
+            {
+                "name": "Raichu",
+                "level": 24
+            }
+        ]
+    }
+]

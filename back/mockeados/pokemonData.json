@@ -1,0 +1,101 @@
+{
+    "pokemons": [
+      {
+        "id": 1,
+        "name": "Charmander",
+        "type": "Fire",
+        "description": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+        "abilities": [
+          {
+            "name": "Blaze",
+            "description": "Powers up Fire-type moves when the Pokémon's HP is low."
+          },
+          {
+            "name": "Solar Power",
+            "description": "Boosts the Sp. Atk stat in sunny weather, but HP decreases every turn."
+          }
+        ],
+        "stats": {
+          "hp": 39,
+          "attack": 52,
+          "defense": 43,
+          "speed": 65
+        },
+        "evolutions": [
+          {
+            "id": 2,
+            "name": "Charmeleon"
+          },
+          {
+            "id": 3,
+            "name": "Charizard"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Squirtle",
+        "type": "Water",
+        "description": "Squirtle's shell is not just used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+        "abilities": [
+          {
+            "name": "Torrent",
+            "description": "Powers up Water-type moves when the Pokémon's HP is low."
+          },
+          {
+            "name": "Rain Dish",
+            "description": "The Pokémon gradually recovers HP in rain."
+          }
+        ],
+        "stats": {
+          "hp": 44,
+          "attack": 48,
+          "defense": 65,
+          "speed": 43
+        },
+        "evolutions": [
+          {
+            "id": 3,
+            "name": "Wartortle"
+          },
+          {
+            "id": 4,
+            "name": "Blastoise"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Bulbasaur",
+        "type": "Grass/Poison",
+        "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+        "abilities": [
+          {
+            "name": "Overgrow",
+            "description": "Powers up Grass-type moves when the Pokémon's HP is low."
+          },
+          {
+            "name": "Chlorophyll",
+            "description": "Boosts the Pokémon's Speed stat in harsh sunlight."
+          }
+        ],
+        "stats": {
+          "hp": 45,
+          "attack": 49,
+          "defense": 49,
+          "speed": 45
+        },
+        "evolutions": [
+          {
+            "id": 4,
+            "name": "Ivysaur"
+          },
+          {
+            "id": 5,
+            "name": "Venusaur"
+          }
+        ]
+      }
+    ]
+  }
+  
