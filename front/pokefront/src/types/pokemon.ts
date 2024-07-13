@@ -31,7 +31,3 @@ export interface PokemonResponse {
   pokemons: Pokemon[];
 }
 
-// Interfaz para la respuesta genérica
-export interface ApiResponse {
-  pokemons: Pokemon[];
-}

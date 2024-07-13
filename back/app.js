@@ -20,7 +20,7 @@ app.get('/entrenadores', (req, res) => {
     res.send(entrenadoresData);
 });
 app.get('/gym', (req, res) => {
-    res.send(gymData);
+    res.send( gymData );
 });
 app.get('/objetos', (req, res) => {
     res.send(objetosData);

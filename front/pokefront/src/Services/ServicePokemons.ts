@@ -1,5 +1,3 @@
-// src/services/apiService.ts
-
 import { AxiosRequestConfig, AxiosResponse } from 'axios';
 import api from './api';
 import { PokemonResponse } from '../types/pokemon';

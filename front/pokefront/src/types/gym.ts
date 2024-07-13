@@ -1,7 +1,8 @@
+
 export interface Gym {
-    gym_id:  number;
-    name:    string;
-    leader:  string;
+    gym_id: number;
+    name: string;
+    leader: string;
     address: Address;
     pokemon: Pokemon[];
 }
@@ -12,7 +13,7 @@ export interface Address {
 }
 
 export interface Pokemon {
-    name:  string;
+    name: string;
     level: number;
 }
 

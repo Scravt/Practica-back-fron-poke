@@ -11,7 +11,7 @@ const PokemonList: React.FC = () => {
     const fetchPokemons = async () => {
       try {
         const response = await getRequestPokemon('pokemons');
-        setPokemons(response.data.pokemons); // Accede directamente a `pokemons`
+        setPokemons(response.data.pokemons); 
         setLoading(false);
       } catch (err) {
         setError('Error fetching pokemons');
