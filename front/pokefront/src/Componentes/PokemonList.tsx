@@ -31,7 +31,7 @@ const PokemonList: React.FC = () => {
   }
 
   return (
-    <div>
+    <div className='w-1/3 flex items-center'>
       <h1>Pokémon List</h1>
       <ul>
         {pokemons.map(pokemon => (

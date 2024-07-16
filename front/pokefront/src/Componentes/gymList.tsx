@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { getRequestGym } from '../Services/ServiceGym';
-import { Gym, GymResponse } from '../types/gym';
+import { Gym} from '../types/gym';
 
 export const GymList: React.FC = () => {
     const [gyms, setGyms] = useState<Gym[]>([]);

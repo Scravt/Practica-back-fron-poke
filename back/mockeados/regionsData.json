@@ -1,0 +1,20 @@
+{
+    "regions": [
+        {
+            "region_id": 1,
+            "name": "Kanto",
+            "description": "The Kanto region is the first region in the Pokémon series, featured in the original games."
+        },
+        {
+            "region_id": 2,
+            "name": "Johto",
+            "description": "The Johto region is known for its traditional Japanese influence and is featured in the second generation of Pokémon games."
+        },
+        {
+            "region_id": 3,
+            "name": "Hoenn",
+            "description": "The Hoenn region is known for its varied landscapes, including many islands and bodies of water."
+        }
+    ]
+}
+   

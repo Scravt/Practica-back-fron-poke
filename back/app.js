@@ -5,10 +5,10 @@ const bodyParser = require('body-parser');
 
 
 const pokeData = require('./mockeados/pokemonData.json');
-const entrenadoresData = require('./mockeados/entrenadorData.json');
+const trainersData = require('./mockeados/trainersData.json');
 const gymData = require('./mockeados/gymData.json');
 const objetosData = require('./mockeados/objetosData.json');
-const regionesData = require('./mockeados/regionesData.json');
+const regionsData = require('./mockeados/regionsData.json');
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -16,8 +16,8 @@ app.use(bodyParser.json());
 app.get('/pokemons', (req, res) => {
     res.send(pokeData);
 });
-app.get('/entrenadores', (req, res) => {
-    res.send(entrenadoresData);
+app.get('/trainers', (req, res) => {
+    res.send(trainersData);
 });
 app.get('/gym', (req, res) => {
     res.send( gymData );
@@ -25,8 +25,8 @@ app.get('/gym', (req, res) => {
 app.get('/objetos', (req, res) => {
     res.send(objetosData);
 });
-app.get('/regiones', (req, res) => {
-    res.send(regionesData);
+app.get('/regions', (req, res) => {
+    res.send(regionsData);
 });
 
 

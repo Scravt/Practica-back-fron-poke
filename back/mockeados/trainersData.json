@@ -1,0 +1,78 @@
+{
+    "trainers": [
+        {
+            "trainer_id": 1,
+            "name": "Ash Ketchum",
+            "age": 10,
+            "address": {
+                "street": "Pallet Town",
+                "number": 1
+            },
+            "pokemon": [
+                {
+                    "name": "Pikachu",
+                    "level": 25
+                },
+                {
+                    "name": "Bulbasaur",
+                    "level": 20
+                },
+                {
+                    "name": "Charizard",
+                    "level": 36
+                },
+                {
+                    "name": "Squirtle",
+                    "level": 18
+                }
+            ]
+        },
+        {
+            "trainer_id": 2,
+            "name": "Misty",
+            "age": 12,
+            "address": {
+                "street": "Cerulean City",
+                "number": 2
+            },
+            "pokemon": [
+                {
+                    "name": "Staryu",
+                    "level": 18
+                },
+                {
+                    "name": "Starmie",
+                    "level": 21
+                },
+                {
+                    "name": "Psyduck",
+                    "level": 20
+                }
+            ]
+        },
+        {
+            "trainer_id": 3,
+            "name": "Brock",
+            "age": 15,
+            "address": {
+                "street": "Pewter City",
+                "number": 3
+            },
+            "pokemon": [
+                {
+                    "name": "Geodude",
+                    "level": 12
+                },
+                {
+                    "name": "Onix",
+                    "level": 14
+                },
+                {
+                    "name": "Crobat",
+                    "level": 22
+                }
+            ]
+        }
+    ]
+}
+

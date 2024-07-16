@@ -1,17 +1,22 @@
-[
-    {
-        "item_id": 1,
-        "name": "Poké Ball",
-        "price": 200
-    },
-    {
-        "item_id": 2,
-        "name": "Potion",
-        "price": 300
-    },
-    {
-        "item_id": 3,
-        "name": "Super Potion",
-        "price": 700
-    }
-]
+{ 
+    "objets": [
+        {
+            "item_id": 1,
+            "name": "Poké Ball",
+            "price": 200,
+            "effect": "Used to catch wild Pokémon."
+        },
+        {
+            "item_id": 2,
+            "name": "Potion",
+            "price": 300,
+            "effect": "Heals 20 HP to a single Pokémon."
+        },
+        {
+            "item_id": 3,
+            "name": "Super Potion",
+            "price": 700,
+            "effect": "Heals 50 HP to a single Pokémon."
+        }
+    ] 
+}
